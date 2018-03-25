@@ -1,0 +1,25 @@
+<html>
+<head>
+<link href="newcss.css" type="text/css" rel="stylesheet"/>
+</head>
+<body id="bodyid" onload="document.f1.email.focus()">
+<center>
+<h1><font color="#800000" size="7">Create Your Account</font></h1>
+<form method="get" name="f1" action="newuser.jsp">
+		<p><font color="#008080"><font size="4">Email&nbsp;</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+		<input type="text" name="email" onkeypress="ajaxFunction(this.value)" size="25"></font></p>
+		<p><font color="#008080"><font size="4">Password</font>&nbsp; 
+		<input type="password" name="pass" size="26"></font></p>
+		<p><font color="#008080"><font size="4">Address&nbsp;</font>&nbsp; 
+		<input type="text" name="address" size="25"></font></p>
+		<p><font color="#008080"><font size="4">Phone&nbsp;</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+		<input type="text" name="phone" size="26"></font></p>
+		<p><br>
+		&nbsp;<input type="submit" value="create account" style="background-color: #FF00FF"></p>
+	</form>
+	<a href="index.html" style="text-decoration:none">Login</a>
+	</center>
+<hr color="#800000" size="6">
+<span id="disp" name="disp"></span><br><br>
+</body>
+</html>
